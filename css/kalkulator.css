@@ -1,0 +1,37 @@
+body {
+    font-family:'Segoe UI';
+    background: #FFBA33;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="button"] {
+    width: 35px;
+    height: 35px;
+    background: #d8930a;
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(173, 171, 168);
+}
+
+.modif {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+}
